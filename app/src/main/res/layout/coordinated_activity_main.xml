@@ -1,0 +1,37 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_gravity="top"
+      android:background="?attr/colorPrimary"
+      android:elevation="4dp"
+      android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+  </androidx.appcompat.widget.Toolbar>
+  <ImageView
+      android:layout_gravity="center"
+      android:id="@+id/image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/test_image"
+      app:layout_behavior="uk.co.massimocarli.designtest.ImageViewBehaviour"
+  />
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|right"
+      android:layout_marginBottom="@dimen/material_botton_margin"
+      android:layout_marginEnd="@dimen/material_botton_margin"
+      android:src="@drawable/ic_autorenew_black_24dp"
+      app:backgroundTint="#FF0000"
+      app:backgroundTintMode="src_over"
+      app:fabSize="normal"
+      app:rippleColor="#00FF00"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

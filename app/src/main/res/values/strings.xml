@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DesignTest</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="toast_message">This is a toast!</string>
+    <string name="snackbar_message">This is a Snackbar!</string>
+    <string name="snackbar_action">Close</string>
+
+
+    <string name="username_mandatory">Username mandatory!</string>
+  <string name="insert_username">Insert Username</string>
+</resources>
